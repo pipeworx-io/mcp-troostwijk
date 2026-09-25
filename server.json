@@ -3,7 +3,7 @@
   "name": "io.github.pipeworx-io/troostwijk",
   "title": "Troostwijk",
   "description": "Troostwijk Auctions MCP — European industrial + insolvency liquidation",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "websiteUrl": "https://pipeworx.io/packs/troostwijk",
   "repository": {
     "url": "https://github.com/pipeworx-io/mcp-troostwijk",
