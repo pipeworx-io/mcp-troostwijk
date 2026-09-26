@@ -1,6 +1,6 @@
 {
   "name": "@pipeworx/mcp-troostwijk",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "Troostwijk Auctions MCP — European industrial + insolvency liquidation",
   "type": "module",
   "main": "src/index.ts",
@@ -26,7 +26,7 @@
     "@cloudflare/workers-types": "^4.20260405.1"
   },
   "pipeworx": {
-    "sourceHash": "v1-7937284e36a009c7c668728d58e3a12d2e66e4d8410baa0be6f3fd27864df684",
-    "sourceCommit": "b0fb3c31386cf0256dcf1e2f1b3440435a87ec35"
+    "sourceHash": "v1-63e0ac8c4b2698cbe4edaa60e227af3a255b0f2211c4c5a10e735c30b198e9e5",
+    "sourceCommit": "66a0692f029179984440cef6938cba7fdd41d66d"
   }
 }
