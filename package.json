@@ -1,12 +1,20 @@
 {
   "name": "@pipeworx/mcp-troostwijk",
-  "version": "0.1.2",
-  "description": "Troostwijk Auctions MCP — European industrial + insolvency liquidation",
+  "version": "0.2.0",
+  "description": "Troostwijk Auctions MCP — European industrial + insolvency liquidation auction lots (troostwijkauctions.com). Fleet #1923.",
   "type": "module",
-  "main": "src/index.ts",
-  "types": "src/index.ts",
+  "main": "lib/index.js",
+  "exports": {
+    ".": "./lib/index.js",
+    "./tools.json": "./tools.json",
+    "./package.json": "./package.json"
+  },
   "bin": {
     "mcp-troostwijk": "bin/cli.js"
+  },
+  "files": ["bin/", "lib/", "tools.json", "server.json"],
+  "engines": {
+    "node": ">=18"
   },
   "keywords": ["mcp", "mcp-server", "model-context-protocol", "pipeworx", "troostwijk"],
   "license": "MIT",
@@ -14,19 +22,12 @@
     "type": "git",
     "url": "git+https://github.com/pipeworx-io/mcp-troostwijk.git"
   },
-  "scripts": {
-    "typecheck": "tsc --noEmit"
-  },
-  "dependencies": {
-    "@modelcontextprotocol/sdk": "^1.30.0",
-    "tsx": "^4.19.0"
-  },
-  "devDependencies": {
-    "typescript": "^5.9.3",
-    "@cloudflare/workers-types": "^4.20260405.1"
-  },
+  "mcpName": "io.github.pipeworx-io/troostwijk",
   "pipeworx": {
-    "sourceHash": "v1-63e0ac8c4b2698cbe4edaa60e227af3a255b0f2211c4c5a10e735c30b198e9e5",
-    "sourceCommit": "66a0692f029179984440cef6938cba7fdd41d66d"
+    "mode": "gateway",
+    "slug": "troostwijk",
+    "gatewaySlug": "troostwijk",
+    "sourceHash": "v1-d40e6b8de06cfa2d6dd4ad7723f7a7d253b22789d1fb3edeb0258a280202923b",
+    "sourceCommit": "f47d581679e1e887373df51ba623f891fbe4c464"
   }
 }
