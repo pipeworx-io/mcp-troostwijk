@@ -1,6 +1,6 @@
 {
   "name": "@pipeworx/mcp-troostwijk",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "description": "Troostwijk Auctions MCP — European industrial + insolvency liquidation auction lots (troostwijkauctions.com). Fleet #1923.",
   "type": "module",
   "main": "lib/index.js",
@@ -27,7 +27,7 @@
     "mode": "gateway",
     "slug": "troostwijk",
     "gatewaySlug": "troostwijk",
-    "sourceHash": "v1-d40e6b8de06cfa2d6dd4ad7723f7a7d253b22789d1fb3edeb0258a280202923b",
-    "sourceCommit": "f47d581679e1e887373df51ba623f891fbe4c464"
+    "sourceHash": "v1-af228fdba63232cd6b108efe147376030d91ad9e1941a70a8384cde55838d3f2",
+    "sourceCommit": "868e119d526d5409447b7ee2149afba7eb9d2593"
   }
 }
